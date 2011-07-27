@@ -25,6 +25,10 @@ class Tag:
         if self.name.startswith('_') or self.name.endswith('_'):
             return
 
+        # We don't want to force the user to add parentheses to tags
+        # that do not require attributes. Because we don't know if there will
+        # be a call, the tag is added to the stack in __getattr__. If there is
+        # a call, the tag is removed from the stack and recomputed here.
         self.stack.pop()
         tag = '<{0} '.format(self.name)
         for key in kargs:

@@ -1,5 +1,8 @@
 from simpledsl.html import *
 
+# This is a mix of html tags with some python code.
+# Simple, but a bit ugly since no indentation is possible.
+
 t.html
 t.head
 t.title

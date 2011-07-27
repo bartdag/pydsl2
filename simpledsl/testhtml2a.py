@@ -1,5 +1,8 @@
 from simpledsl.html2 import *
 
+# Here we present a variation of the previous HTML DSL.
+# We can now add attributes to tags.
+
 (
 t.html,
     t.head,

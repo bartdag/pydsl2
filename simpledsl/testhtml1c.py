@@ -1,5 +1,8 @@
 from simpledsl.html import *
 
+# Here, we use functions to use control statements.
+# The HTML document is still defined in a tuple at.
+
 def HEADER():
     (
     t.head,
