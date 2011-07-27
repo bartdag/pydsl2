@@ -1,0 +1,30 @@
+[simpledsl]
+
+A. property file (with sections and properties).
+s("Section")
+p(prop="value")
+
+B. simple conditionals and loops
+WHEN(),
+DO_THIS
+OTHERWISE,
+DO_THAT
+END_WHEN
+
+B. Variant without an END_WHEN (with embedded lists)
+
+FOR(),
+DO_THIS
+
+C. monsters and heros
+
+
+[dsl]
+
+A. html revisited with tabs and newlines
+
+B. simple conditionals and loops revisited
+
+Try to change the when for a python if!
+
+C. monsters and heros revisited
